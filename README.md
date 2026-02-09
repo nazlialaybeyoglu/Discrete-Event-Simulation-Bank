@@ -1,13 +1,9 @@
-Discrete Event Simulation: Banking System
+# Discrete Event Simulation: Banking System
+This project models a banking environment using a Discrete Event Simulation (DES) engine implemented in C++.
 
-This project implements a complete Discrete Event Simulation (DES) to model bank operations. It focuses on efficient data management, load balancing, and manual memory management in C++.
+## Technical Highlights
+- **Custom Template Data Structures:** Implemented generic Singly Linked Lists, Queues, and Sorted Doubly Linked Lists from scratch.
+- **Event-Driven Architecture:** Managed system state transitions using a time-ordered Event Queue.
+- **Load Balancing:** Developed a `MultipleQueue` manager to route customers based on real-time queue occupancy.
+- **Memory Safety:** Enforced manual memory management and deep-copy semantics to prevent leaks and ensure stability.
 
-Key Features
-
-Custom Data Structures: Implemented Singly and Sorted Doubly Linked Lists from scratch using C++ Templates.
-
-Simulation Logic: Handles various event types (Arrival, Dispatch, Service) using a time-ordered Event Queue .
-
-Load Balancing: Utilizes a MultipleQueue manager to route customers to the shortest waiting line.
-
-Memory Management: Implemented deep-copy semantics (Copy Constructors, Assignment Operators) and manual deallocation to ensure no memory leaks .
